@@ -1,0 +1,110 @@
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: #ccc;
+    color: black;
+}
+
+#mode {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ccc;
+    justify-content: center;
+}
+
+#heading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#board {
+    margin-top: 100px;
+    height: 315px;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    height: 300px;
+    width: 315px;   
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    border: none;
+    font-size: 50px;
+    background-color: white;
+    color:  "black";
+
+
+}
+
+.box:hover {
+    box-shadow: none;
+}
+
+
+#reset {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#reset-button {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+}
+
+#reset-button:hover {
+    box-shadow: none;
+}
+
+/* #winner-player {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(160, 166, 172);
+    padding: 5px;
+    border-radius: 10px;
+} */
+
+#winner-player {
+    margin-top: 25px;
+    position: absolute;
+    top:  10%;
+    left: 570px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
